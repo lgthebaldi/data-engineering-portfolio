@@ -19,12 +19,19 @@ Evolution of the CLI to include manual data processing engines without external 
     * **Timsort & Lambdas:** Sorting data by custom keys.
     * **Aggregation:** Statistical analysis of data structures.
 
+
+
+### [Week 3: Docker & Containerization](./week_3)
+**Status:** ✅ Completed
+Packaged the application into a Docker Container for absolute reproducibility.
+* **Tech Stack:** Docker, Dockerfile.
+* **Key Concepts:** Containerization, Image vs. Container, Bind Mounts (Volumes) for persistence.
 ## 🗺️ Roadmap
 
 - [x] **Phase 0:** Environment Setup (Linux, SSH, Git)
 - [x] **Week 1:** Modern Python & Validation (Pydantic)
 - [x] **Week 2:** Data Structures & Algorithms (Filtering/Sorting)
-- [ ] **Week 3:** Docker & Containerization
+- [x] **Week 3:** Docker & Containerization
 - [ ] **Week 4:** SQL & Databases
 - [ ] **Week 5:** APIs (FastAPI)
 - [ ] **Week 6:** Final Capstone Project
