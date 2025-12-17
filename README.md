@@ -28,11 +28,17 @@ Packaged the application into a Docker Container for absolute reproducibility.
 * **Key Concepts:** Containerization, Image vs. Container, Bind Mounts (Volumes) for persistence.
 ## 🗺️ Roadmap
 
+### [Week 4: SQL & Databases](./week_4)
+**Status:** ✅ Completed
+Migrated storage to SQLite to improve performance and data integrity.
+* **Tech Stack:** Python, SQLite3.
+* **Key Concepts:** Relational Schemas, SQL Queries (`SELECT`, `INSERT`), SQL Injection Protection, Performance optimization (`ORDER BY`).
+
 - [x] **Phase 0:** Environment Setup (Linux, SSH, Git)
 - [x] **Week 1:** Modern Python & Validation (Pydantic)
 - [x] **Week 2:** Data Structures & Algorithms (Filtering/Sorting)
 - [x] **Week 3:** Docker & Containerization
-- [ ] **Week 4:** SQL & Databases
+- [x] **Week 4:** SQL & Databases
 - [ ] **Week 5:** APIs (FastAPI)
 - [ ] **Week 6:** Final Capstone Project
 
