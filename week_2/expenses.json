@@ -1,0 +1,30 @@
+[
+    {
+        "name": "1",
+        "amount": 20.0,
+        "category": "3",
+        "date": "2020-10-10",
+        "description": null
+    },
+    {
+        "name": "Burguer",
+        "amount": 10.0,
+        "category": "Food",
+        "date": "2025-12-15",
+        "description": null
+    },
+    {
+        "name": "Uber",
+        "amount": 20.0,
+        "category": "Transport",
+        "date": "2025-12-15",
+        "description": null
+    },
+    {
+        "name": "Pizza",
+        "amount": 30.0,
+        "category": "Food",
+        "date": "2025-12-15",
+        "description": null
+    }
+]
