@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  # Service Name
+  financial-api:
+    # Build from current folder
+    build: .
+    # Container Name (for easy identification)
+    container_name: fintrack-system
+    # Map PC Port 8000 -> Container Port 8000
+    ports:
+      - "8000:8000"
+    # Persistence: Save database to host machine
+    volumes:
+      - ./expenses.db:/app/expenses.db
+    # Restart Policy: If it crashes, restart it
+    restart: always

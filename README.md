@@ -40,6 +40,14 @@ Transformed the logic into a RESTful API service.
 * **Key Concepts:** HTTP Methods (GET/POST), Request/Response Models, Query Parameters, Automatic Documentation (Swagger UI).
 
 
+### [Week 6: Capstone Microservice](./week_6)
+**Status:** ✅ Completed (Phase 1 Finale)
+A fully containerized financial API orchestrated with Docker Compose.
+* **Tech Stack:** Docker Compose, FastAPI, SQLite.
+* **Key Achievement:** Reduced deployment complexity to a single terminal command.
+
+
+
 ## 🗺️ Roadmap
 - [x] **Phase 0:** Environment Setup (Linux, SSH, Git)
 - [x] **Week 1:** Modern Python & Validation (Pydantic)
@@ -47,7 +55,7 @@ Transformed the logic into a RESTful API service.
 - [x] **Week 3:** Docker & Containerization
 - [x] **Week 4:** SQL & Databases
 - [x] **Week 5:** APIs (FastAPI)
-- [ ] **Week 6:** Final Capstone Project
+- [x] **Week 6:** Final Capstone Project
 
 ---
 *Created by Luis Gustavo Thebaldi Barbosa*
