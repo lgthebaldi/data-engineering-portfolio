@@ -26,7 +26,6 @@ Evolution of the CLI to include manual data processing engines without external 
 Packaged the application into a Docker Container for absolute reproducibility.
 * **Tech Stack:** Docker, Dockerfile.
 * **Key Concepts:** Containerization, Image vs. Container, Bind Mounts (Volumes) for persistence.
-## 🗺️ Roadmap
 
 ### [Week 4: SQL & Databases](./week_4)
 **Status:** ✅ Completed
@@ -34,12 +33,20 @@ Migrated storage to SQLite to improve performance and data integrity.
 * **Tech Stack:** Python, SQLite3.
 * **Key Concepts:** Relational Schemas, SQL Queries (`SELECT`, `INSERT`), SQL Injection Protection, Performance optimization (`ORDER BY`).
 
+### [Week 5: APIs & FastAPI](./week_5)
+**Status:** ✅ Completed
+Transformed the logic into a RESTful API service.
+* **Tech Stack:** FastAPI, Uvicorn, SQLite.
+* **Key Concepts:** HTTP Methods (GET/POST), Request/Response Models, Query Parameters, Automatic Documentation (Swagger UI).
+
+
+## 🗺️ Roadmap
 - [x] **Phase 0:** Environment Setup (Linux, SSH, Git)
 - [x] **Week 1:** Modern Python & Validation (Pydantic)
 - [x] **Week 2:** Data Structures & Algorithms (Filtering/Sorting)
 - [x] **Week 3:** Docker & Containerization
 - [x] **Week 4:** SQL & Databases
-- [ ] **Week 5:** APIs (FastAPI)
+- [x] **Week 5:** APIs (FastAPI)
 - [ ] **Week 6:** Final Capstone Project
 
 ---
