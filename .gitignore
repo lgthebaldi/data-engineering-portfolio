@@ -1,1 +1,13 @@
+# Python
 .venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local databases (created automatically at runtime)
+*.db
+*.sqlite3
+week_6/data/
+
+# Secrets
+.env

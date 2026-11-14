@@ -1,3 +1,4 @@
+import os
 import sqlite3
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, PositiveFloat
@@ -5,7 +6,7 @@ from typing import List, Optional  # <--- This is the key import!
 
 # 1. Setup the App
 app = FastAPI(title="Financial API", description="Week 5: My First API")
-DB_NAME = "expenses.db"
+DB_NAME = os.getenv("DB_PATH", "expenses.db")
 
 # 2. Pydantic Models
 class ExpenseCreate(BaseModel):
