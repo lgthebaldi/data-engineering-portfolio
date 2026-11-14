@@ -5,7 +5,7 @@ This is the culmination of Phase 1. I combined **FastAPI**, **SQLite**, and **Do
 ## 🌟 Features
 * **Zero-Config Deployment:** No need to install Python or create virtual environments. Just requires Docker.
 * **Orchestration:** `docker-compose.yml` manages the build process, network ports, and storage volumes automatically.
-* **Data Persistence:** Uses a Bind Mount to ensure `expenses.db` survives container restarts.
+* **Data Persistence:** Uses a Bind Mount (`./data` → `/app/data`) to ensure `expenses.db` survives container restarts. The database is created automatically on first run.
 
 ## 🛠 Tech Stack
 * **Language:** Python 3.10

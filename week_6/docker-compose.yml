@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   # Service Name
   financial-api:
@@ -11,7 +9,9 @@ services:
     ports:
       - "8000:8000"
     # Persistence: Save database to host machine
+    environment:
+      - DB_PATH=/app/data/expenses.db
     volumes:
-      - ./expenses.db:/app/expenses.db
+      - ./data:/app/data
     # Restart Policy: If it crashes, restart it
     restart: always
